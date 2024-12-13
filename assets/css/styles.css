@@ -26,11 +26,16 @@ html {
     font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Kritik-Trial-Regular';
+h1, h3, h4, h5, h6 {
+    font-family: 'Gilroy';
     color: #191612;
     font-size: 3.125rem;
-    font-style: normal;
+}
+
+h2 {
+    font-family: 'Gilroy';
+    color: #191612;
+    font-size: 3.125rem;
 }
 
 p {
@@ -168,10 +173,6 @@ body {
 .logo-img {
     max-width: 100%; 
     height: auto;
-}
-
-.logo-img-moving {
-    display: none;
 }
 
 /* Media Queries */
