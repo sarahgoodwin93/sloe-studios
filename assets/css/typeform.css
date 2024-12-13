@@ -1,0 +1,35 @@
+/* Typeform page */
+
+body {
+    display: contents;
+}
+
+.typeform-page {
+    margin: 0;
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Gilroy', sans-serif;
+    background-color: #0c0c0c; 
+}
+
+[data-tf-live] {
+    width: 100%; 
+    height: 100%;
+    border: none; 
+    border-radius: 10px; 
+}
+
+.return-links {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 50px;
+    background-color: #0c0c0c;
+}
+
+.return-links a {
+    color: blue;
+    text-decoration: none;
+}
