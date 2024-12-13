@@ -30,6 +30,8 @@ body {
 }
 
 .return-links a {
-    color: blue;
+    color: #fefdf9;
     text-decoration: none;
+    margin: 20px;
+    text-transform: uppercase;
 }
