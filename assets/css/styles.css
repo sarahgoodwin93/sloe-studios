@@ -1,8 +1,8 @@
 /* Import Gilroy Regular */
 @font-face {
     font-family: 'Gilroy';
-    src: url('./assets/fonts/gilroy-regular.woff2') format('woff2'),
-         url('./assets/fonts/gilroy-regular.woff') format('woff');
+    src: url('../fonts/gilroy-regular.woff2') format('woff2'),
+         url('../fonts/gilroy-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,15 +10,13 @@
 /* Import Kritik Medium */
 @font-face {
     font-family: 'Kritik-Medium';
-    src: url('./assets/fonts/Kritik-Medium.woff2') format('woff2'),
-         url('./assets/fonts/Kritik-Medium.woff') format('woff'),
-         url('./assets/fonts/Kritik-Medium.otf') format('opentype');
+    src: url('../fonts/Kritik-Medium.otf') format('opentype');
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Kritik-Trial-Regular';
-    src: url('./assets/fonts/Kritik-Trial-Regular.otf') format('opentype');
+    src: url('../fonts/Kritik-Trial-Regular.otf') format('opentype');
     font-style: normal;
 }
 
@@ -26,23 +24,19 @@ html {
     font-size: 16px;
 }
 
-h1, h3, h4, h5, h6 {
-    font-family: 'Gilroy';
-    color: #191612;
-    font-size: 3.125rem;
-}
-
-h2 {
-    font-family: 'Gilroy';
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kritik-Trial-Regular';
     color: #191612;
     font-size: 3.125rem;
 }
 
 p {
+    font-family: 'Gilroy', sans-serif;
     font-size: 1.375rem;
 }
 
 a {
+    font-family: 'Gilroy', sans-serif;
     font-size: 0.875rem;
 }
 
@@ -244,6 +238,16 @@ body {
     }
     
 }
+@media (min-width: 1025px) {
+    .logo-img-moving {
+        display: none; 
+    }
+
+    .logo-img {
+        display: block;
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
