@@ -219,7 +219,7 @@ body {
     }
 
     .contact p {
-        padding-top: 27%;
+        padding-top: 15%;
     }
 
     .text-container {
@@ -242,7 +242,7 @@ body {
     .logo-img-moving {
         position: sticky; 
         bottom: 0; 
-        height: 15%;
+        height: 100px;
         animation: move-across 10s linear infinite; 
     }
 
@@ -332,7 +332,7 @@ body {
     .logo-img-moving {
         position: sticky; 
         bottom: 0; 
-        height: 15%;
+        height: 100px;
         animation: move-across 10s linear infinite;
     }
 
