@@ -224,6 +224,7 @@ body {
         align-items: baseline;
         padding-top: 0;
         justify-content: space-evenly;
+        gap: 20px;
     }
 
     .logo-img {
@@ -304,6 +305,7 @@ body {
         flex-direction: column;
         align-items: baseline;
         justify-content: space-evenly;
+        gap: 20px;
     }
 
     .logo-img {
