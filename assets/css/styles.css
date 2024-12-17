@@ -325,12 +325,16 @@ body {
         gap: 20px;
     }
 
+    contact p {
+        padding-top: 50%;
+    }
+
     .logo-img {
         display: none;
     }
 
     .logo-img-moving {
-        position: sticky; 
+        position: fixed; 
         bottom: 0; 
         height: 100px;
         animation: move-across 10s linear infinite;
